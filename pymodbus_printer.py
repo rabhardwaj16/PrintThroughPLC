@@ -45,7 +45,7 @@ while True:
         lst = client.read_holding_registers(10, 5).registers
         
         #String(List to String)
-        strint_data = w2sconversion.word2string(lst)
+        strint_data = word2string(lst)
         #-------------------------------------------------------X
     
         if b_trigger == True:
